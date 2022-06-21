@@ -1,0 +1,54 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "dotenv": "^8.0.0",
+    "env-cmd": "^9.0.3",
+    "history": "^4.9.0",
+    "react": "^16.8.6",
+    "react-circular-progressbar": "^2.0.1",
+    "react-cookies": "^0.1.1",
+    "react-device-detect": "^1.6.5",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.6.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.1",
+    "socket.io-client": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node-env-run server --exec nodemon | pino-colada"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0",
+    "node-env-run": "^3.0.2",
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.19.1",
+    "npm-run-all": "^4.1.5",
+    "pino-colada": "^1.4.5"
+  }
+}
